@@ -1,0 +1,24 @@
+
+
+.logo-footer{
+    width: 135px;
+}
+@media only screen and (max-width: 1024px){
+    footer{
+        /* padding: 0; */
+        /* padding-top: 30px; */
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #modal-footer {
+        height: 50vh;
+        overflow-y: scroll;
+    }
+    .modal-footer-content{
+        position: relative;
+    }
+    #home-filters input[name="keyword"] {
+        width: 145px;
+    }
+}

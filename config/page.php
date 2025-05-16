@@ -1,0 +1,28 @@
+<?php
+
+return [
+    '' => 'Chọn page',
+    'index' => 'Trang chủ',
+    //'table_price' => 'Bảng giá',
+    //'products' => 'Sản phẩm',
+    'aboutus' => 'Giới thiệu',
+    'contact' => 'Liên hệ',
+    'album' => 'Albums',
+    'login' => 'Đăng nhập',
+    //'agency' => 'Đăng ký làm đại lý',
+    //'register' => 'Đăng ký',
+    //'cart_index' => 'Giỏ hàng',
+    //'cart_checkout' => 'Thanh toán - Giỏ hàng',
+    //'cart_success' => 'Thanh toán thành công - Giỏ hàng',
+    //'experts' => 'Đội ngũ - chuyên gia',
+    //'history' => 'Lịch sử phát triển',
+    // 'schedule_sampling' => 'Đặt lịch lấy mẫu tại nhà',
+    // 'schedule_an_appointment' => 'Đặt lịch khám',
+    'finding' => 'Tra cứu kết quả',
+    'certification' => 'Chứng nhận',
+    'privilege' => 'Đặc quyền',
+    'parnter' => 'Đối tác',
+    // 'fidding_result' => 'Phiếu kết quả',
+    // 'question' => 'Danh sách câu hỏi',
+    // 'question_form' => 'Đặt câu hỏi',
+];

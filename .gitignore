@@ -1,0 +1,27 @@
+/node_modules
+# Bỏ qua tất cả mọi thứ trong thư mục public
+/public/*
+
+# Ngoại lệ: cho phép frontend/css, frontend/fonts, frontend/js
+!/public/frontend/
+/public/frontend/*
+!/public/frontend/css/
+!/public/frontend/fonts/
+!/public/frontend/js/
+
+# Bỏ qua các thư mục còn lại trong frontend
+/public/frontend/images/
+/public/frontend/library/
+
+/storage/*
+/vendor
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+.history
+/upload
