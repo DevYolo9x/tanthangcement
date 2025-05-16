@@ -580,11 +580,11 @@ video {
 @media (min-width: 1280px) {
 
   .\!container {
-    max-width: 1400px !important;
+    max-width: 1200px !important;
   }
 
   .container {
-    max-width: 1400px;
+    max-width: 1200px;
   }
 }
 .sr-only {
@@ -1778,9 +1778,6 @@ video {
 .gap-2 {
   gap: 0.5rem;
 }
-.gap-2\.5 {
-  gap: 0.625rem;
-}
 .gap-3 {
   gap: 0.75rem;
 }
@@ -2146,7 +2143,7 @@ video {
 }
 .border-color_primary {
   --tw-border-opacity: 1;
-  border-color: rgb(57 171 99 / var(--tw-border-opacity));
+  border-color: rgb(66 136 195 / var(--tw-border-opacity));
 }
 .border-color_second {
   --tw-border-opacity: 1;
@@ -2299,10 +2296,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(244 246 248 / var(--tw-bg-opacity));
 }
-.bg-\[\#f5f5f5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-}
 .bg-\[\#f5f5fa\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 250 / var(--tw-bg-opacity));
@@ -2345,7 +2338,7 @@ video {
 }
 .bg-color_primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(57 171 99 / var(--tw-bg-opacity));
+  background-color: rgb(66 136 195 / var(--tw-bg-opacity));
 }
 .bg-color_second {
   --tw-bg-opacity: 1;
@@ -2516,9 +2509,6 @@ video {
 .p-3 {
   padding: 0.75rem;
 }
-.p-3\.5 {
-  padding: 0.875rem;
-}
 .p-4 {
   padding: 1rem;
 }
@@ -2612,10 +2602,6 @@ video {
 .px-\[25px\] {
   padding-left: 25px;
   padding-right: 25px;
-}
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .px-\[32px\] {
   padding-left: 32px;
@@ -3260,7 +3246,7 @@ video {
 }
 .text-color_primary {
   --tw-text-opacity: 1;
-  color: rgb(57 171 99 / var(--tw-text-opacity));
+  color: rgb(66 136 195 / var(--tw-text-opacity));
 }
 .text-gray-100 {
   --tw-text-opacity: 1;
@@ -3441,6 +3427,10 @@ video {
 }
 .grayscale {
   --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.invert {
+  --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .filter {
@@ -3627,10 +3617,6 @@ video {
   content: var(--tw-content);
   width: 95%;
 }
-.before\:w-full::before {
-  content: var(--tw-content);
-  width: 100%;
-}
 .before\:w-px::before {
   content: var(--tw-content);
   width: 1px;
@@ -3674,10 +3660,6 @@ video {
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-.before\:bg-\[rgba\(8\2c 86\2c 144\2c \.45\)\]::before {
-  content: var(--tw-content);
-  background-color: rgba(8,86,144,.45);
 }
 .before\:bg-slate-100::before {
   content: var(--tw-content);
@@ -3774,7 +3756,7 @@ video {
 .after\:bg-color_primary::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(57 171 99 / var(--tw-bg-opacity));
+  background-color: rgb(66 136 195 / var(--tw-bg-opacity));
 }
 .after\:bg-slate-50::after {
   content: var(--tw-content);
@@ -3823,10 +3805,6 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
-.hover\:border-gray-400:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
 .hover\:border-gray-500:hover {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
@@ -3857,7 +3835,7 @@ video {
 }
 .hover\:bg-color_primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(57 171 99 / var(--tw-bg-opacity));
+  background-color: rgb(66 136 195 / var(--tw-bg-opacity));
 }
 .hover\:bg-color_second:hover {
   --tw-bg-opacity: 1;
@@ -3928,7 +3906,7 @@ video {
 }
 .hover\:text-color_primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(57 171 99 / var(--tw-text-opacity));
+  color: rgb(66 136 195 / var(--tw-text-opacity));
 }
 .hover\:text-color_second:hover {
   --tw-text-opacity: 1;
@@ -4614,6 +4592,10 @@ video {
 
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .md\:col-span-12 {
+    grid-column: span 12 / span 12;
   }
 
   .md\:col-span-2 {
@@ -5655,10 +5637,6 @@ video {
 
   .lg\:text-right {
     text-align: right;
-  }
-
-  .lg\:text-start {
-    text-align: start;
   }
 
   .lg\:text-3xl {

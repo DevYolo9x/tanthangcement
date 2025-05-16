@@ -33,7 +33,7 @@ module.exports = {
                 footer_gradient: 'linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(64, 41, 21, 1) 100%, rgba(0, 212, 255, 1) 100%)',
             },
             colors: {
-                color_primary: "#39ab63",
+                color_primary: "#4288c3",
                 color_second: "#b1061e",
                 color_top: "#00ff45",
                 color_fourth: "#3a3b3a",
@@ -158,7 +158,7 @@ module.exports = {
                         maxWidth: "1025px",
                     },
                     "@screen xl": {
-                        maxWidth: "1400px",
+                        maxWidth: "1200px",
                     },
                 },
             });
